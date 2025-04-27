@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Apr 26 19:53:41 2025
+# Process ID: 2157349
+# Current directory: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1
+# Command line: vivado -log ita.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ita.tcl
+# Log file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/ita.vds
+# Journal file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ita.tcl -notrace

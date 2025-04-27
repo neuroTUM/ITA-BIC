@@ -1,0 +1,454 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 24 22:11:57 2025
+# Process ID: 559730
+# Current directory: /nas/ei/home/ge27lob/Desktop/ITA_Pulp
+# Command line: vivado
+# Log file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/vivado.log
+# Journal file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 6469.398 ; gain = 139.230 ; free physical = 21435 ; free virtual = 27717
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 24 22:12:33 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Thu Apr 24 23:32:24 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Thu Apr 24 23:33:34 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+[Thu Apr 24 23:33:34 2025] Launched impl_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 24 23:39:01 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+add_files -norecurse /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv
+update_compile_order -fileset sources_1
+add_files -norecurse /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/include/common_cells/assertions.svh
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSERT_INIT' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv:103]
+[Thu Apr 24 23:42:59 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 24 23:44:31 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 24 23:56:43 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+close [ open /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.srcs/sources_1/new/tc_clk_xilinx.sv w ]
+add_files /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.srcs/sources_1/new/tc_clk_xilinx.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sat Apr 26 19:40:56 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+add_files -norecurse {/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/spill_register_flushable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fifo.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_2phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_join_dynamic.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/delta_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fifo_optimal_wrap.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rstgen_bypass.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fifo_v3.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sub_per_hash.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_detect.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/max_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_16bit.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_napot.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fall_through_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_int_div_static.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_rx.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/popcount.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_arbiter_flushable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_ack.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mem_to_banks_detailed.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fork.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_mux.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/serial_deglitch.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_intf.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_4phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mem_to_banks.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_int_div.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/unread.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/binary_to_gray.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sync_wedge.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_demux.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/plru_tree.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_reset_ctrlr_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cf_math_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_arbiter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/spill_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lossy_valid_to_stream.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_tx.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fork_dynamic.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cc_onehot.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/read.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_delay.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/exp_backoff.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_encode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rstgen.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/id_queue.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_8bit.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_omega_net.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_xbar.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/multiaddr_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sync.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/onehot_to_bin.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rr_arb_tree.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/gray_to_binary.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_reset_ctrlr.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mv_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_join.sv}
+WARNING: [filemgmt 56-12] File '/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSUME_I' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:129]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:129]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "==". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:129]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:129]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:131]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:132]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:133]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSERT_FINAL' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:136]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "idx". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:157]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "start_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:157]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:157]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:157]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "idx". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:159]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "<". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:159]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "idx". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:165]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "start_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:165]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:165]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:166]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "idx". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:180]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "start_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:180]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:180]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "idx". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:181]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "start_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:181]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end_addr". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:181]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv:181]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter.sv:245]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSERT' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:191]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:191]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:191]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSUME' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:260]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:260]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:260]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSERT_INIT' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_2phase.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_2phase.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:162]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:197]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:259]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:295]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'ASSERT_NEVER' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/exp_backoff.sv:88]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fifo_v3.sv:143]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fifo_v3.sv:145]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fifo_v3.sv:148]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/id_queue.sv:416]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:66]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:75]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:77]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:90]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:97]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:102]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:104]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:106]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:108]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr.sv:296]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ""LFSR mask is not correct. The MSB must be 1.". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr.sv:302]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "!". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr.sv:306]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_16bit.sv:64]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_8bit.sv:58]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FF' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFL' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "endmodule". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:65]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:256]
+[Sat Apr 26 19:45:17 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:197]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:295]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:66]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:90]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:97]
+CRITICAL WARNING: [HDL 9-806] Syntax error near """. [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv:5]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FF' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFL' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "endmodule". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:65]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:256]
+[Sat Apr 26 19:50:36 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:197]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:295]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:66]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:90]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:97]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FF' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFL' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "endmodule". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:65]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:256]
+[Sat Apr 26 19:52:27 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:243]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv:320]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLNR' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:196]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:197]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:215]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv:258]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:294]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:295]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFLARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:313]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "&". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv:357]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARNC' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv:45]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:59]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFARN' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:61]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:66]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv:68]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:82]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:84]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:87]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "=". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:90]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "end". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv:97]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FF' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:112]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:113]
+CRITICAL WARNING: [HDL 9-3952] use of undefined macro 'FFL' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv:115]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ",". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:52]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:56]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "endmodule". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv:65]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "1". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:37]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv:38]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv:80]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "(". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "'0". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv:105]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:0] -->> '.xil_defaultlib.clk_or_tree' [/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv:256]
+[Sat Apr 26 19:53:40 2025] Launched synth_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Apr 26 21:29:42 2025] Launched impl_1...
+Run output will be captured here: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.runs/impl_1/runme.log
+archive_project /nas/ei/home/ge27lob/Desktop/ITA_Pulp.xpr.zip -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-559730-gpu13' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

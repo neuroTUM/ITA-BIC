@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 24 22:11:57 2025
+# Process ID: 559730
+# Current directory: /nas/ei/home/ge27lob/Desktop/ITA_Pulp
+# Command line: vivado
+# Log file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/vivado.log
+# Journal file: /nas/ei/home/ge27lob/Desktop/ITA_Pulp/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -norecurse /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv
+update_compile_order -fileset sources_1
+add_files -norecurse /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/include/common_cells/assertions.svh
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close [ open /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.srcs/sources_1/new/tc_clk_xilinx.sv w ]
+add_files /nas/ei/home/ge27lob/Desktop/ITA_Pulp/ITA_Pulp.srcs/sources_1/new/tc_clk_xilinx.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -norecurse {/nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lzc.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/spill_register_flushable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fifo.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_2phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_to_mem.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_join_dynamic.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/delta_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fifo_optimal_wrap.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rstgen_bypass.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fifo_v3.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sub_per_hash.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_detect.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/max_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_16bit.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_spill_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/credit_counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_napot.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/fall_through_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_int_div_static.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_mux_glitch_free.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_rx.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/popcount.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_arbiter_flushable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode_dync.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_ack.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mem_to_banks_detailed.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fork.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/passthrough_stream_fifo.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_mux.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_throttle.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/serial_deglitch.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_intf.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_4phase.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mem_to_banks.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_2phase_clearable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/clk_int_div.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/unread.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/binary_to_gray.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sync_wedge.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_demux.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/plru_tree.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_reset_ctrlr_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cf_math_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_pkg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg_gated.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_arbiter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/spill_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lossy_valid_to_stream.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator_tx.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_fork_dynamic.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/edge_propagator.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cc_onehot.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/read.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_delay.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/exp_backoff.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/ecc_encode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rstgen.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray_clearable.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/id_queue.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr_8bit.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_omega_net.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_xbar.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_register.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cb_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/multiaddr_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/shift_reg.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/sync.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_fifo_gray.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/isochronous_4phase_handshake.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/onehot_to_bin.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/lfsr.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/rr_arb_tree.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/counter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/gray_to_binary.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/cdc_reset_ctrlr.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/mv_filter.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/addr_decode.sv /nas/ei/home/ge27lob/Desktop/ITA_Pulp/common_cells/src/stream_join.sv}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+archive_project /nas/ei/home/ge27lob/Desktop/ITA_Pulp.xpr.zip -force -include_local_ip_cache -include_config_settings
