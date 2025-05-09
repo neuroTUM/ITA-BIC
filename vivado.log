@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 29 18:40:54 2025
+# Process ID: 1726369
+# Current directory: /tmp/mnt_ryloth_ipek
+# Command line: vivado
+# Log file: /tmp/mnt_ryloth_ipek/vivado.log
+# Journal file: /tmp/mnt_ryloth_ipek/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /tmp/mnt_ryloth_ipek/ITA/ITA.xpr
+ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13].
+open_project /tmp/mnt_ryloth_ipek/vivado_projects/ITA/ITA.xpr
+ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13].
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 18:47:35 2025...

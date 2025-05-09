@@ -1,0 +1,127 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 1737990
+License: Customer
+
+Current time: 	Tue Apr 29 18:51:30 CEST 2025
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 5.4.0-214-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:11.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ge26dob
+User home directory: /nas/ei/home/ge26dob
+User working directory: /tmp/mnt_ryloth_ipek/vivado_projects/ITA
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nas/ei/share/tools/xilinx/Vivado
+HDI_APPROOT: /nfs/tools/xilinx/Vivado/2019.1
+RDI_DATADIR: /nas/ei/share/tools/xilinx/Vivado/2019.1/data
+RDI_BINDIR: /nas/ei/share/tools/xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/ge26dob/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/ge26dob/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /nas/ei/home/ge26dob/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.log
+Vivado journal file location: 	/tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-1737990-gpu13
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /nfs/tools/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /nfs/tools/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /nfs/tools/xilinx/Vivado/2019.1
+XILINX_SDK: /nfs/tools/xilinx/SDK/2019.1
+XILINX_VIVADO: /nfs/tools/xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /nfs/tools/xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	202 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 868 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 65 MB (+66043kb) [00:00:09]
+// [Engine Memory]: 838 MB (+727501kb) [00:00:09]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: ITA.xpr. Version: Vivado v2019.1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1126 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project ITA.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project ITA.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/tmp/mnt_ryloth_osman/ITA' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 45 MB. Current time: 4/29/25, 6:51:32 PM CEST
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 915 MB (+36888kb) [00:00:18]
+// [GUI Memory]: 80 MB (+12013kb) [00:00:19]
+// [GUI Memory]: 101 MB (+17272kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  3259 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 6464.160 ; gain = 158.852 ; free physical = 5774 ; free virtual = 13775 
+// [GUI Memory]: 107 MB (+1204kb) [00:00:21]
+// [Engine Memory]: 984 MB (+23547kb) [00:00:21]
+// Project name: ITA; location: /tmp/mnt_ryloth_ipek/vivado_projects/ITA; part: xczu7ev-ffvc1156-2-e
+dismissDialog("Open Project"); // by (cl)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 431ms to process. Increasing delay to 3000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,040 MB. GUI used memory: 52 MB. Current time: 4/29/25, 6:51:57 PM CEST
+// [Engine Memory]: 1,041 MB (+8323kb) [00:01:37]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 538 seconds
+closeMainWindow("ITA - [/tmp/mnt_ryloth_ipek/vivado_projects/ITA/ITA.xpr] - Vivado 2019.1"); // cl
+// A (cl): Exit Vivado: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1157 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// Error: Failed to save the layout data file: Disk quota exceeded
+// HOptionPane Error: 'Failed to save the layout data file: Disk quota exceeded (Failed to Save Layout Data File)'
+dismissDialog("Exit Vivado"); // A (cl)

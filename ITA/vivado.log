@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 29 18:51:10 2025
+# Process ID: 1737990
+# Current directory: /tmp/mnt_ryloth_ipek/vivado_projects/ITA
+# Command line: vivado ITA.xpr
+# Log file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.log
+# Journal file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ITA.xpr
+INFO: [Project 1-313] Project file moved from '/tmp/mnt_ryloth_osman/ITA' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/nfs/tools/xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 6464.160 ; gain = 158.852 ; free physical = 5774 ; free virtual = 13775
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 19:00:45 2025...

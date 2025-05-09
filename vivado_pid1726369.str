@@ -1,0 +1,113 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 1726369
+License: Customer
+
+Current time: 	Tue Apr 29 18:41:17 CEST 2025
+Time zone: 	Central European Standard Time (Europe/Berlin)
+
+OS: Ubuntu
+OS Version: 5.4.0-214-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:11.0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ge26dob
+User home directory: /nas/ei/home/ge26dob
+User working directory: /tmp/mnt_ryloth_ipek
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /nas/ei/share/tools/xilinx/Vivado
+HDI_APPROOT: /nfs/tools/xilinx/Vivado/2019.1
+RDI_DATADIR: /nas/ei/share/tools/xilinx/Vivado/2019.1/data
+RDI_BINDIR: /nas/ei/share/tools/xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/ge26dob/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/ge26dob/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /nas/ei/home/ge26dob/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/nas/ei/share/tools/xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/tmp/mnt_ryloth_ipek/vivado.log
+Vivado journal file location: 	/tmp/mnt_ryloth_ipek/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-1726369-gpu13
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /nfs/tools/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /nfs/tools/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /nfs/tools/xilinx/Vivado/2019.1
+XILINX_SDK: /nfs/tools/xilinx/SDK/2019.1
+XILINX_VIVADO: /nfs/tools/xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /nfs/tools/xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 884 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// WARNING: HEventQueue.dispatchEvent() is taking  1246 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 862 MB. GUI used memory: 50 MB. Current time: 4/29/25, 6:41:17 PM CEST
+setFileChooser("/tmp/mnt_ryloth_ipek/ITA/ITA.xpr");
+// [GUI Memory]: 58 MB (+58230kb) [00:00:17]
+// [Engine Memory]: 864 MB (+754829kb) [00:00:17]
+// Opening Vivado Project: /tmp/mnt_ryloth_ipek/ITA/ITA.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1149 ms.
+// Tcl Message: open_project /tmp/mnt_ryloth_ipek/ITA/ITA.xpr 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13].  
+// 'i' command handler elapsed time: 6 seconds
+dismissDialog("Open Project"); // by (cl)
+// Elapsed time: 278 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 312, 85); // dt (af, cl)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// WARNING: HEventQueue.dispatchEvent() is taking  1873 ms.
+setFileChooser("/tmp/mnt_ryloth_ipek/vivado_projects/ITA/ITA.xpr");
+// Opening Vivado Project: /tmp/mnt_ryloth_ipek/vivado_projects/ITA/ITA.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// Tcl Message: open_project /tmp/mnt_ryloth_ipek/vivado_projects/ITA/ITA.xpr 
+// Tcl Message: ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13]. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-1294] Unable to create directory [/tmp/mnt_ryloth_ipek/.Xil/Vivado-1726369-gpu13].  
+// 'i' command handler elapsed time: 8 seconds
+// [GUI Memory]: 114 MB (+55547kb) [00:05:07]
+dismissDialog("Open Project"); // by (cl)
+// Elapsed time: 20 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 323, 84); // dt (af, cl)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 481, 108); // dt (af, cl)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 219, 35, false, false, false, true, false); // dt (af, cl) - Popup Trigger
+selectMenuItem(RDIResource.TclConsoleView_COPY, "Copy"); // ah (an, cl)
+// Elapsed time: 38 seconds
+closeMainWindow("Vivado 2019.1"); // cl
+// A (cl): Exit Vivado: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1173 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// Error: Failed to save the layout data file: Disk quota exceeded
+// HOptionPane Error: 'Failed to save the layout data file: Disk quota exceeded (Failed to Save Layout Data File)'
+dismissDialog("Exit Vivado"); // A (cl)

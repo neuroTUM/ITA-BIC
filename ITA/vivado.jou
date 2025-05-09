@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 29 18:51:10 2025
+# Process ID: 1737990
+# Current directory: /tmp/mnt_ryloth_ipek/vivado_projects/ITA
+# Command line: vivado ITA.xpr
+# Log file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.log
+# Journal file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ITA.xpr
+update_compile_order -fileset sources_1
