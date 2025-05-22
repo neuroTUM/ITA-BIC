@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 21 18:58:59 2025
+# Process ID: 3809190
+# Current directory: /tmp/mnt_ryloth_ipek/vivado_projects/ITA_Project/ITA/ITA.runs/synth_1
+# Command line: vivado -log ita_hwpe_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ita_hwpe_top.tcl
+# Log file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA_Project/ITA/ITA.runs/synth_1/ita_hwpe_top.vds
+# Journal file: /tmp/mnt_ryloth_ipek/vivado_projects/ITA_Project/ITA/ITA.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ita_hwpe_top.tcl -notrace
